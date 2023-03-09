@@ -1,5 +1,6 @@
-# Robot_Project_by_CDM-
+# Bot_Discord_ Project-
 # Nom : Chafi Khermouche / Din Kapo / Mouhsine M'Changama
-PROJET : Notre projet en programmation porte sur la programmation d'un robot. En fonction des fonctionnalités du robot, on peut voir deux évolutions possibles. D'une part, la volonté du groupe serait de programmer les mouvements d'un robot. D'autre part, si le robot est plus perfectionné, nous programmerons un robot à tête chercheuse ayant une cible. 
+PROJET : Notre projet en programmation porte sur l'automatisation d'un bot discord. Dans un premier temps, son utilisation est limité par le cadre du master APE, il permet de fournir les cours demandés. Dans un deuxième temps, il permet notamment de simuler un workshop en anglais. Le bot envoie un sujet de discussion et ouvre différentes salons vocaux pour permettre aux étudiants de discuter. Dans un troisième temps... 
 
-OK
+#Commandes pour utiliser le Bot 
+
