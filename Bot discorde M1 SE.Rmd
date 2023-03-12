@@ -1,0 +1,169 @@
+---
+title: "Présentation Bot discord FSEG"
+output: ioslides_presentation
+logo : /Users/ilma/Desktop/Programmation image/Discord_Logo_sans_texte.svg
+date: "13/03/2023"
+subtitle: "versions 1.O"
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+# Introduction 
+
+
+## Objectifs/fonctionnalités du bot    
+<div class="columns-2">
+  ![](https://d7umqicpi7263.cloudfront.net/img/product/d6b8985a-1e0c-4bab-96d9-78f380f6456b/5ea96e78-c492-4a1e-8238-962167b9b2b5.png)
+
+
+ 
+  -conçu pour être utilisé sur des discord en rapport avec la FSEG
+
+  -Ces deux fonctionnalités majeures sont :
+  
+    1) envoyer des courriel en PDF 
+  
+    2) simuler le déroulement de workshops 
+
+## Plan présentation 
+<div class="columns-2">
+  ![](https://lh3.googleusercontent.com/aB-VJ5dKyy7wpsE3kNCW0nA1GXGiPLD9nLZwgG5fPW8mNJFe_ucNnnBC_JbVKmrfa4mvu2uMVyu7odvQzPi9V5qSc6yHN3H5fQUILhJW)
+
+  1) Généralité sur le code 
+  
+  2) les différentes commandes du bot 
+  
+  3)  commande !MasterAPE 
+  
+  4)  commandes !wk et !shuffle
+  
+  5) commande bonus 
+</div>
+
+## Généralité sur le code, la structure 
+<div class="blue">
+début code
+</div>
+```
+import discord  
+import random 
+import PyPDF2 
+client = discord.Client(intents=discord.Intents.all())
+```
+<div class="blue">
+fonction evenementielle
+</div>
+```
+@client.event
+async def on_message(message):
+          |if message.content.lower()==("salut"):
+          |       |   
+          | block3|await message.channel.send("ont dit bonjour")
+block2    |       |
+          |if message.content.lower()==("bye"):
+          |       | await message.channel.send("bye")
+client.run("Token_Bot")          
+  
+```
+## Généralité sur le code, les commande 
+<div class="blue">
+!MasterAPE 
+</div>
+l'envoie de ce message dans le chat de discord permet d'engager une conversation avec le bot dans le but de choisir quelle cour 
+on veut qu'il nous envoie en pdf 
+
+<div class="blue">
+!Salon  
+</div>
+permet de créer les salon vocaux nécésaires a l'utilisation de la commande !wk 
+
+<div class="blue">
+!wk taille_du_groupe  
+</div>
+l'envoie de ce message dans le chat de discord permet d'engager une conversation avec le bot dans le but de répartir aléatoirement 
+ les utilisateur connnecter dans le salon "Groupe Work shop" afin qu'il discute d'un sujet dans une langue qui leur est étrangeer
+
+
+
+## les différentes commandes du bot
+<div class="columns-2">
+  ![](https://media.istockphoto.com/id/1328188905/vector/hands-shuffling-playing-cards.jpg?b=1&s=170667a&w=0&k=20&c=1h7lWQpoDXkXLbvX6eJguKwCyDbESlvduEJMqwwuy1k=)
+<div class="blue">
+!shuffle
+</div>
+ce message doit etre envoyer aprés avoir utiliser la commande wk si on veut modifier les groupes et aussi ont a la possibilité de changer la langue du sujet 
+de conversation 
+
+
+## commande !MasterAPE
+<div class="blue">
+morceau code
+</div>
+</div>
+![](https://imagizer.imageshack.com/v2/800x600q70/923/Ujkwkb.png)
+</div>
+## commande !MasterAPE
+<div class="blue">
+morceau code
+</div>
+
+</div>
+![](https://imageshack.com/i/pmgNkQ8gp)
+
+</div>
+
+<div class="green">
+
+
+démonstration
+
+</div>
+
+## commande !wk
+
+<div class="blue">
+morceau code
+</div>
+
+</div>
+![](https://imageshack.com/i/pox8Nrd7p)
+</div>
+
+## commande !wk
+
+<div class="blue">
+morceau code
+</div>
+
+</div>
+![](https://imagizer.imageshack.com/v2/800x600q70/923/TtaOFy.png)
+</div>
+
+
+## commande !wk
+
+<div class="blue">
+morceau code
+</div>
+
+</div>
+![](https://imagizer.imageshack.com/v2/800x600q70/922/6TOyCM.png)
+</div>
+</div>
+
+<div class="green">
+
+
+démonstration
+
+</div>
+
+
+## {.flexbox .vcenter}
+
+### commandes bonus
+## {.flexbox .vcenter}
+### merci d'avoir écouter!
+
