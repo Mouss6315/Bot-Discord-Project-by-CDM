@@ -65,14 +65,7 @@ async def on_message(message):
             else:
                 await nom_expediteur.edit(voice_channel=(nom_channel))
 
-        ###### pour trouvez les cours pour chaque matieres et l'ouvrir en PDF
-
-
-        ###fonction qui va pemettre de faire plus vite l'enchainement qui permet de mettre une liste avec les choix
-        ##il faut definir liste de choix avant 
-
-
-        # commande pour  allez vite envoyer le cour apres que la matiére a été choisi
+       
 
        
 
