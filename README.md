@@ -4,7 +4,7 @@ PROJET : Notre projet en programmation porte sur l'automatisation d'un bot disco
 
 #Méthode pour utiliser le Bot 
 
-Tout d'abord, pour faire fonctionner le code il faut créer un environnement sur votre PC à partir du terminal. Ensuite, dans cette environnement, il faut installer Python ainsi que Discord.py. De plus, il faut installer le package PyPDF2. Il faut créer un fichier python dans cette environnement et le lancer depuis le terminal. 
+Tout d'abord, pour faire fonctionner le code il faut créer un environnement sur votre PC à partir du terminal. Ensuite, dans cette environnement, il faut installer Python ensuite importer les librairies Discord.py. De plus, il faut installer le package PyPDF2. Il faut créer un fichier python dans cette environnement et le lancer depuis le terminal.Cependant si vous copiez notre code il faut changer le token car le bot discord rend invalide ceux mise en ligne sur des sites comme GITHUB 
 
 #Commandes du Bot
 
@@ -12,9 +12,11 @@ Automatisation des cours
 
 La commande !MasterAPE : Cette commande permet de lancer une conversation avec le bot afin d'accéder aux cours du master APE. Le bot donnera une liste des cours du master APE. Ensuite, vous devez choisir une numéro à une matière. Après, vous devez choisir un numéro associé à un professeur. L'étape suivante sera de choisir un numéro associé à un chapitre. Le bot vous enverra le cours en PDF.
 
-Workshop en anglais
+#Workshop en anglais
 
 La commande !Workshop taille_groupe : Tout d'abord, il faut que les utilisateurs voulant participer au workshop aillent dans le salon "Groupe Work shop". Cette commande permet de répartir les participants entre les différents salons vocaux et détermine le nombre de participants du groupe. Ensuite, dans le salon textuels un sujet de conversation sera assigné.   
 
+#!Salon 
+la commande !Salon : permet de créer les salons nécessaire afin d'utiliser la commande workshop
 
 
