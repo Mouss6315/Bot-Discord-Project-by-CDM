@@ -1,22 +1,22 @@
 # Bot_Discord_ Project-
-# Nom : Chafi Khermouche / Din Kapo / Mouhsine M'Changama
-PROJET : Notre projet en programmation porte sur l'automatisation d'un bot discord. Dans un premier temps, son utilisation est limité par le cadre du master APE, il permet de fournir les cours demandés. Dans un deuxième temps, il permet notamment de simuler un workshop en anglais. Le bot envoie un sujet de discussion et ouvre différentes salons vocaux pour permettre aux étudiants de discuter. Dans un troisième temps... 
+# Name: Chafi Khermouche / Din Kapo / Mouhsine M'Changama
+PROJECT : Our programming project concerns the automation of a bot discord. Initially, its use is limited by the framework of the APE master's degree, and it is used to provide the courses requested. Secondly, it can be used to simulate a workshop in English. The bot sends out a discussion topic and opens different voice chat rooms for students to discuss.
 
-#Méthode pour utiliser le Bot 
+#How to use the Bot 
 
-Tout d'abord, pour faire fonctionner le code il faut créer un environnement sur votre PC à partir du terminal. Ensuite, dans cette environnement, il faut installer Python ensuite importer les librairies Discord.py. De plus, il faut installer le package PyPDF2. Il faut créer un fichier python dans cette environnement et le lancer depuis le terminal.Cependant si vous copiez notre code il faut changer le token car le bot discord rend invalide ceux mise en ligne sur des sites comme GITHUB 
+First of all, to run the code, you need to create an environment on your PC using the terminal. Then, in this environment, you need to install Python and import the Discord.py libraries. You will also need to install the PyPDF2 package. Create a python file in this environment and launch it from the terminal. However, if you copy our code, you will need to change the token, as the Discord bot invalidates those put online on sites such as GITHUB. 
 
-#Commandes du Bot
+#Bot commands
 
-Automatisation des cours
+Course automation
 
-La commande !MasterAPE : Cette commande permet de lancer une conversation avec le bot afin d'accéder aux cours du master APE. Le bot donnera une liste des cours du master APE. Ensuite, vous devez choisir une numéro à une matière. Après, vous devez choisir un numéro associé à un professeur. L'étape suivante sera de choisir un numéro associé à un chapitre. Le bot vous enverra le cours en PDF.
+The !MasterAPE command: This command allows you to start a conversation with the bot in order to access the master APE courses. The bot will give you a list of APE master courses. Next, you must choose a subject number. Next, you must choose a number associated with a teacher. The next step is to choose a number associated with a chapter. The bot will send you the course in PDF format.
 
-#Workshop en anglais
+#Workshop in English
 
-La commande !Workshop taille_groupe : Tout d'abord, il faut que les utilisateurs voulant participer au workshop aillent dans le salon "Groupe Work shop". Cette commande permet de répartir les participants entre les différents salons vocaux et détermine le nombre de participants du groupe. Ensuite, dans le salon textuels un sujet de conversation sera assigné.   
+The !Workshop taille_groupe command: First of all, users who want to take part in the workshop need to go to the ‘Work shop group’ room. This command divides the participants between the different voice rooms and determines the number of participants in the group. Then, in the text room, a conversation topic will be assigned.   
 
 #!Salon 
-la commande !Salon : permet de créer les salons nécessaire afin d'utiliser la commande workshop
+the !Room command: is used to create the rooms required to use the workshop command.
 
 
